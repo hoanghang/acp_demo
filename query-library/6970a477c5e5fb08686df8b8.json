@@ -1,0 +1,78 @@
+{
+  "id" : "6970a477c5e5fb08686df8b8",
+  "updatedAt" : "2026-01-23T01:46:55.552Z",
+  "createdBy" : "6964ca6d0d4507562a04e3af",
+  "gid" : "019be002-7462-7cc1-ac87-e862be00bd9d",
+  "organizationId" : "696607b20d4507562a04e8e1",
+  "name" : "Unnamed2",
+  "isSecure" : false,
+  "libraryQueryDSL" : {
+    "query" : {
+      "compType" : "postgres",
+      "comp" : {
+        "commandType" : "INSERT",
+        "command" : {
+          "table" : "",
+          "changeSet" : {
+            "compType" : "KEY_VALUE_PAIRS",
+            "comp" : [ {
+              "column" : "",
+              "value" : ""
+            } ]
+          }
+        },
+        "mode" : "SQL",
+        "sql" : "",
+        "disablePreparedStatement" : false,
+        "isSecure" : false
+      },
+      "id" : "6970a477c5e5fb08686df8b8",
+      "name" : "Unnamed2",
+      "order" : 0,
+      "datasourceId" : "696607b20d4507562a04e8e8",
+      "triggerType" : "manual",
+      "onEvent" : [ ],
+      "notification" : {
+        "showSuccess" : true,
+        "showFail" : true,
+        "fail" : [ { } ]
+      },
+      "timeout" : "",
+      "confirmationModal" : { },
+      "variables" : [ ],
+      "periodic" : false,
+      "periodicTime" : "",
+      "cancelPrevious" : false,
+      "depQueryName" : "",
+      "delayTime" : "",
+      "isSecure" : false,
+      "externalToken" : ""
+    }
+  },
+  "commitId" : null,
+  "changeType" : "NONE",
+  "lastCommitAt" : null,
+  "baseQuerySupplier" : { },
+  "query" : {
+    "datasourceId" : "696607b20d4507562a04e8e8",
+    "compType" : "postgres",
+    "comp" : {
+      "commandType" : "INSERT",
+      "command" : {
+        "table" : "",
+        "changeSet" : {
+          "compType" : "KEY_VALUE_PAIRS",
+          "comp" : [ {
+            "column" : "",
+            "value" : ""
+          } ]
+        }
+      },
+      "mode" : "SQL",
+      "sql" : "",
+      "disablePreparedStatement" : false,
+      "isSecure" : false
+    },
+    "timeout" : ""
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id" : "6972d302c5e5fb08686dff31",
+  "updatedAt" : "2026-01-23T01:46:42.073Z",
+  "createdBy" : "6964ca6d0d4507562a04e3af",
+  "organizationId" : "696607b20d4507562a04e8e1",
+  "gid" : "019be888-3fe4-75f8-b8f8-3b47ed3e8fb9",
+  "parentFolderId" : null,
+  "parentFolderGid" : null,
+  "name" : "Test",
+  "title" : null,
+  "description" : null,
+  "category" : null,
+  "type" : null,
+  "image" : null,
+  "commitId" : null,
+  "isChange" : null
+}

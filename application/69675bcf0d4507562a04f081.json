@@ -1,0 +1,460 @@
+{
+  "id" : "69675bcf0d4507562a04f081",
+  "gid" : "019bbbbe-a131-7f5c-975d-f15ec07600c7",
+  "name" : "merge",
+  "applicationType" : 2,
+  "applicationStatus" : "NORMAL",
+  "editingApplicationDSL" : {
+    "ui" : {
+      "compType" : "module",
+      "comp" : {
+        "events" : {
+          "enableEventTestMessage" : true
+        },
+        "container" : {
+          "layout" : {
+            "f64e3777" : {
+              "i" : "f64e3777",
+              "h" : 24,
+              "w" : 7,
+              "x" : 0,
+              "y" : 0,
+              "pos" : 0
+            },
+            "43ff7c44" : {
+              "i" : "43ff7c44",
+              "x" : 0,
+              "y" : 24,
+              "w" : 7,
+              "h" : 40,
+              "pos" : 1
+            }
+          },
+          "items" : {
+            "f64e3777" : {
+              "compType" : "text",
+              "comp" : {
+                "text" : "### 👋 Hello, {{currentUser.name}}",
+                "autoHeight" : "auto",
+                "type" : "markdown",
+                "horizontalAlignment" : "left",
+                "contentScrollBar" : true,
+                "verticalAlignment" : "center",
+                "margin" : {
+                  "left" : "",
+                  "right" : "",
+                  "top" : "",
+                  "bottom" : ""
+                },
+                "padding" : {
+                  "left" : "",
+                  "right" : "",
+                  "top" : "",
+                  "bottom" : ""
+                },
+                "showDataLoadingIndicators" : false,
+                "preventStyleOverwriting" : false,
+                "appliedThemeId" : "",
+                "version" : "latest"
+              },
+              "name" : "text1"
+            },
+            "43ff7c44" : {
+              "compType" : "container",
+              "comp" : {
+                "container" : {
+                  "header" : {
+                    "layout" : { }
+                  },
+                  "body" : {
+                    "0" : {
+                      "view" : {
+                        "layout" : {
+                          "be01247f" : {
+                            "i" : "be01247f",
+                            "h" : 15,
+                            "w" : 18,
+                            "x" : 0,
+                            "y" : 0,
+                            "pos" : 0,
+                            "pc" : {
+                              "width" : 7,
+                              "height" : 8,
+                              "x" : 0,
+                              "y" : 0,
+                              "pos" : 0
+                            },
+                            "_saveTimestamp" : 1768379854473
+                          }
+                        },
+                        "items" : {
+                          "be01247f" : {
+                            "compType" : "text",
+                            "comp" : {
+                              "text" : "### 👋 Hello, {{currentUser.name}}",
+                              "autoHeight" : "auto",
+                              "type" : "markdown",
+                              "horizontalAlignment" : "left",
+                              "contentScrollBar" : true,
+                              "verticalAlignment" : "center",
+                              "margin" : {
+                                "left" : "",
+                                "right" : "",
+                                "top" : "",
+                                "bottom" : ""
+                              },
+                              "padding" : {
+                                "left" : "",
+                                "right" : "",
+                                "top" : "",
+                                "bottom" : ""
+                              },
+                              "showDataLoadingIndicators" : false,
+                              "preventStyleOverwriting" : false,
+                              "appliedThemeId" : "",
+                              "version" : "latest"
+                            },
+                            "name" : "text2"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "footer" : {
+                    "layout" : { }
+                  },
+                  "showHeader" : true,
+                  "showBody" : true,
+                  "autoHeight" : "auto",
+                  "showVerticalScrollbar" : false,
+                  "horizontalGridCells" : 24,
+                  "scrollbars" : false,
+                  "style" : {
+                    "borderWidth" : "1px"
+                  },
+                  "appliedThemeId" : ""
+                },
+                "showDataLoadingIndicators" : false,
+                "preventStyleOverwriting" : false,
+                "appliedThemeId" : "",
+                "version" : "latest"
+              },
+              "name" : "container1"
+            }
+          }
+        },
+        "containerSize" : {
+          "height" : 57,
+          "width" : 24
+        },
+        "containerRowCount" : 0,
+        "showDataLoadingIndicators" : false,
+        "preventStyleOverwriting" : false,
+        "appliedThemeId" : "",
+        "version" : "latest"
+      }
+    },
+    "refTree" : {
+      "value" : ""
+    },
+    "hooks" : [ {
+      "compType" : "urlParams",
+      "comp" : { },
+      "name" : "url"
+    }, {
+      "compType" : "dayJsLib",
+      "comp" : { },
+      "name" : "dayjs"
+    }, {
+      "compType" : "lodashJsLib",
+      "comp" : { },
+      "name" : "_"
+    }, {
+      "compType" : "utils",
+      "comp" : { },
+      "name" : "utils"
+    }, {
+      "compType" : "message",
+      "comp" : { },
+      "name" : "message"
+    }, {
+      "compType" : "toast",
+      "comp" : { },
+      "name" : "toast"
+    }, {
+      "compType" : "localStorage",
+      "comp" : { },
+      "name" : "localStorage"
+    }, {
+      "compType" : "currentUser",
+      "comp" : { },
+      "name" : "currentUser"
+    }, {
+      "compType" : "screenInfo",
+      "comp" : { },
+      "name" : "screenInfo"
+    }, {
+      "compType" : "theme",
+      "comp" : { },
+      "name" : "theme"
+    } ],
+    "settings" : {
+      "title" : "market_test",
+      "description" : "",
+      "icon" : "/icon:solid/0",
+      "category" : "SUPPORT",
+      "showHeaderInPublic" : false,
+      "themeId" : "jfoege4ue5e8ap6omwos4lyy",
+      "preventAppStylesOverwriting" : true,
+      "disableCollision" : false,
+      "lowcoderCompVersion" : "latest",
+      "maxWidth" : {
+        "dropdown" : "1920",
+        "input" : 0
+      },
+      "gridRowCount" : "Infinity",
+      "gridPaddingX" : "20",
+      "gridPaddingY" : "20"
+    },
+    "preload" : {
+      "libs" : [ "https://unpkg.com/jmespath/jmespath.js", "https://unpkg.com/i18next/dist/umd/i18next.min.js" ],
+      "script" : "window.greet = () => \"Hello Khoa\"",
+      "css" : ".top-header {\n  background-color: red;\n}",
+      "globalCSS" : ".top-header{\n  font-size: 20px\n}"
+    }
+  },
+  "publicToAll" : false,
+  "publicToMarketplace" : false,
+  "agencyProfile" : false,
+  "editingUserId" : "6964ca6d0d4507562a04e3af",
+  "lastEditedAt" : "2026-01-14T09:03:46.609Z",
+  "createdAt" : "2026-01-14T09:03:11.164Z",
+  "changeType" : "NONE",
+  "updatedAt" : "2026-01-26T03:55:55.864985276Z",
+  "createdBy" : "6964ca6d0d4507562a04e3af",
+  "slug" : null,
+  "organizationId" : "696607b20d4507562a04e8e1",
+  "commitId" : null,
+  "lastCommitAt" : null,
+  "editingQueries" : [ ],
+  "editingModules" : [ ],
+  "editingApplicationDSLOrNull" : {
+    "ui" : {
+      "compType" : "module",
+      "comp" : {
+        "events" : {
+          "enableEventTestMessage" : true
+        },
+        "container" : {
+          "layout" : {
+            "f64e3777" : {
+              "i" : "f64e3777",
+              "h" : 24,
+              "w" : 7,
+              "x" : 0,
+              "y" : 0,
+              "pos" : 0
+            },
+            "43ff7c44" : {
+              "i" : "43ff7c44",
+              "x" : 0,
+              "y" : 24,
+              "w" : 7,
+              "h" : 40,
+              "pos" : 1
+            }
+          },
+          "items" : {
+            "f64e3777" : {
+              "compType" : "text",
+              "comp" : {
+                "text" : "### 👋 Hello, {{currentUser.name}}",
+                "autoHeight" : "auto",
+                "type" : "markdown",
+                "horizontalAlignment" : "left",
+                "contentScrollBar" : true,
+                "verticalAlignment" : "center",
+                "margin" : {
+                  "left" : "",
+                  "right" : "",
+                  "top" : "",
+                  "bottom" : ""
+                },
+                "padding" : {
+                  "left" : "",
+                  "right" : "",
+                  "top" : "",
+                  "bottom" : ""
+                },
+                "showDataLoadingIndicators" : false,
+                "preventStyleOverwriting" : false,
+                "appliedThemeId" : "",
+                "version" : "latest"
+              },
+              "name" : "text1"
+            },
+            "43ff7c44" : {
+              "compType" : "container",
+              "comp" : {
+                "container" : {
+                  "header" : {
+                    "layout" : { }
+                  },
+                  "body" : {
+                    "0" : {
+                      "view" : {
+                        "layout" : {
+                          "be01247f" : {
+                            "i" : "be01247f",
+                            "h" : 15,
+                            "w" : 18,
+                            "x" : 0,
+                            "y" : 0,
+                            "pos" : 0,
+                            "pc" : {
+                              "width" : 7,
+                              "height" : 8,
+                              "x" : 0,
+                              "y" : 0,
+                              "pos" : 0
+                            },
+                            "_saveTimestamp" : 1768379854473
+                          }
+                        },
+                        "items" : {
+                          "be01247f" : {
+                            "compType" : "text",
+                            "comp" : {
+                              "text" : "### 👋 Hello, {{currentUser.name}}",
+                              "autoHeight" : "auto",
+                              "type" : "markdown",
+                              "horizontalAlignment" : "left",
+                              "contentScrollBar" : true,
+                              "verticalAlignment" : "center",
+                              "margin" : {
+                                "left" : "",
+                                "right" : "",
+                                "top" : "",
+                                "bottom" : ""
+                              },
+                              "padding" : {
+                                "left" : "",
+                                "right" : "",
+                                "top" : "",
+                                "bottom" : ""
+                              },
+                              "showDataLoadingIndicators" : false,
+                              "preventStyleOverwriting" : false,
+                              "appliedThemeId" : "",
+                              "version" : "latest"
+                            },
+                            "name" : "text2"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "footer" : {
+                    "layout" : { }
+                  },
+                  "showHeader" : true,
+                  "showBody" : true,
+                  "autoHeight" : "auto",
+                  "showVerticalScrollbar" : false,
+                  "horizontalGridCells" : 24,
+                  "scrollbars" : false,
+                  "style" : {
+                    "borderWidth" : "1px"
+                  },
+                  "appliedThemeId" : ""
+                },
+                "showDataLoadingIndicators" : false,
+                "preventStyleOverwriting" : false,
+                "appliedThemeId" : "",
+                "version" : "latest"
+              },
+              "name" : "container1"
+            }
+          }
+        },
+        "containerSize" : {
+          "height" : 57,
+          "width" : 24
+        },
+        "containerRowCount" : 0,
+        "showDataLoadingIndicators" : false,
+        "preventStyleOverwriting" : false,
+        "appliedThemeId" : "",
+        "version" : "latest"
+      }
+    },
+    "refTree" : {
+      "value" : ""
+    },
+    "hooks" : [ {
+      "compType" : "urlParams",
+      "comp" : { },
+      "name" : "url"
+    }, {
+      "compType" : "dayJsLib",
+      "comp" : { },
+      "name" : "dayjs"
+    }, {
+      "compType" : "lodashJsLib",
+      "comp" : { },
+      "name" : "_"
+    }, {
+      "compType" : "utils",
+      "comp" : { },
+      "name" : "utils"
+    }, {
+      "compType" : "message",
+      "comp" : { },
+      "name" : "message"
+    }, {
+      "compType" : "toast",
+      "comp" : { },
+      "name" : "toast"
+    }, {
+      "compType" : "localStorage",
+      "comp" : { },
+      "name" : "localStorage"
+    }, {
+      "compType" : "currentUser",
+      "comp" : { },
+      "name" : "currentUser"
+    }, {
+      "compType" : "screenInfo",
+      "comp" : { },
+      "name" : "screenInfo"
+    }, {
+      "compType" : "theme",
+      "comp" : { },
+      "name" : "theme"
+    } ],
+    "settings" : {
+      "title" : "market_test",
+      "description" : "",
+      "icon" : "/icon:solid/0",
+      "category" : "SUPPORT",
+      "showHeaderInPublic" : false,
+      "themeId" : "jfoege4ue5e8ap6omwos4lyy",
+      "preventAppStylesOverwriting" : true,
+      "disableCollision" : false,
+      "lowcoderCompVersion" : "latest",
+      "maxWidth" : {
+        "dropdown" : "1920",
+        "input" : 0
+      },
+      "gridRowCount" : "Infinity",
+      "gridPaddingX" : "20",
+      "gridPaddingY" : "20"
+    },
+    "preload" : {
+      "libs" : [ "https://unpkg.com/jmespath/jmespath.js", "https://unpkg.com/i18next/dist/umd/i18next.min.js" ],
+      "script" : "window.greet = () => \"Hello Khoa\"",
+      "css" : ".top-header {\n  background-color: red;\n}",
+      "globalCSS" : ".top-header{\n  font-size: 20px\n}"
+    }
+  }
+}

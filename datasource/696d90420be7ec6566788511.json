@@ -1,0 +1,33 @@
+{
+  "id" : "696d90420be7ec6566788511",
+  "updatedAt" : "2026-01-19T02:07:22.236Z",
+  "createdBy" : "6964ca6d0d4507562a04e3af",
+  "gid" : "019bd3fb-851d-7212-993d-c3de74d59389",
+  "name" : "api-clone-marketplace",
+  "type" : "restApi",
+  "organizationId" : "696607b20d4507562a04e8e1",
+  "creationSource" : 0,
+  "datasourceStatus" : "NORMAL",
+  "detailConfig" : {
+    "params" : [ ],
+    "body" : null,
+    "bodyFormData" : [ ],
+    "headers" : [ ],
+    "url" : "https://jsonplaceholder.typicode.com/",
+    "forwardCookies" : [ ],
+    "forwardAllCookies" : false,
+    "authConfig" : {
+      "type" : "NO_AUTH"
+    },
+    "sslConfig" : {
+      "sslCertVerificationType" : "VERIFY_CA_CERT"
+    },
+    "authType" : "NO_AUTH",
+    "oauth2InheritFromLogin" : false
+  },
+  "commitId" : null,
+  "changeType" : "NONE",
+  "lastCommitAt" : null,
+  "n8nCredentialId" : null,
+  "systemSupport" : "ACP"
+}

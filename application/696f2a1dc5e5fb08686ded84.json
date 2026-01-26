@@ -1,0 +1,546 @@
+{
+  "id" : "696f2a1dc5e5fb08686ded84",
+  "gid" : "019bda3c-8516-7124-86f3-e16c97286898",
+  "name" : "testfallback",
+  "applicationType" : 2,
+  "applicationStatus" : "RECYCLED",
+  "editingApplicationDSL" : {
+    "ui" : {
+      "compType" : "module",
+      "comp" : {
+        "events" : {
+          "enableEventTestMessage" : true
+        },
+        "container" : {
+          "layout" : {
+            "a044a4f9" : {
+              "i" : "a044a4f9",
+              "h" : 6,
+              "w" : 7,
+              "x" : 0,
+              "y" : 0,
+              "pos" : 0
+            }
+          },
+          "items" : {
+            "a044a4f9" : {
+              "compType" : "text",
+              "comp" : {
+                "text" : "### 👋 Hello, {{currentUser.name}}",
+                "autoHeight" : "auto",
+                "type" : "markdown",
+                "horizontalAlignment" : "left",
+                "contentScrollBar" : true,
+                "verticalAlignment" : "center",
+                "margin" : {
+                  "left" : "",
+                  "right" : "",
+                  "top" : "",
+                  "bottom" : ""
+                },
+                "padding" : {
+                  "left" : "",
+                  "right" : "",
+                  "top" : "",
+                  "bottom" : ""
+                },
+                "showDataLoadingIndicators" : false,
+                "preventStyleOverwriting" : false,
+                "appliedThemeId" : "",
+                "version" : "latest"
+              },
+              "name" : "text1"
+            }
+          }
+        },
+        "containerSize" : {
+          "height" : 57,
+          "width" : 24
+        },
+        "containerRowCount" : 0,
+        "showDataLoadingIndicators" : false,
+        "preventStyleOverwriting" : false,
+        "appliedThemeId" : "",
+        "version" : "latest"
+      }
+    },
+    "queries" : [ {
+      "compType" : "restApi",
+      "comp" : {
+        "bodyType" : "none",
+        "body" : "",
+        "httpMethod" : "GET",
+        "path" : "/products",
+        "headers" : [ {
+          "key" : "",
+          "value" : ""
+        } ],
+        "params" : [ {
+          "key" : "",
+          "value" : ""
+        } ],
+        "auth" : "none",
+        "bodyFormData" : [ {
+          "key" : "",
+          "value" : "",
+          "type" : "text"
+        } ],
+        "isSecure" : false
+      },
+      "id" : "8ume2re2ty5hs7yqktu6eg68",
+      "name" : "query1",
+      "order" : 1768270737424,
+      "datasourceId" : "6965a5190d4507562a04e3ec",
+      "triggerType" : "manual",
+      "onEvent" : [ ],
+      "notification" : {
+        "showSuccess" : true,
+        "showFail" : true,
+        "fail" : [ { } ]
+      },
+      "timeout" : "",
+      "confirmationModal" : { },
+      "variables" : [ ],
+      "periodic" : false,
+      "periodicTime" : "",
+      "cancelPrevious" : false,
+      "depQueryName" : "",
+      "delayTime" : "",
+      "isSecure" : false,
+      "externalToken" : ""
+    }, {
+      "compType" : "restApi",
+      "comp" : {
+        "bodyType" : "none",
+        "body" : "",
+        "httpMethod" : "GET",
+        "path" : "users",
+        "headers" : [ {
+          "key" : "",
+          "value" : ""
+        } ],
+        "params" : [ {
+          "key" : "",
+          "value" : ""
+        } ],
+        "auth" : "none",
+        "bodyFormData" : [ {
+          "key" : "",
+          "value" : "",
+          "type" : "text"
+        } ],
+        "isSecure" : false
+      },
+      "id" : "3pze0u14i638z1zl4lozw14s",
+      "name" : "queryTestClone",
+      "order" : 1768788447676,
+      "datasourceId" : "696d90420be7ec6566788511",
+      "triggerType" : "manual",
+      "onEvent" : [ ],
+      "notification" : {
+        "showSuccess" : true,
+        "showFail" : true,
+        "fail" : [ { } ]
+      },
+      "timeout" : "",
+      "confirmationModal" : { },
+      "variables" : [ ],
+      "periodic" : false,
+      "periodicTime" : "",
+      "cancelPrevious" : false,
+      "depQueryName" : "",
+      "delayTime" : "",
+      "isSecure" : false,
+      "externalToken" : ""
+    } ],
+    "refTree" : {
+      "value" : "",
+      "items" : [ {
+        "value" : "query1"
+      }, {
+        "value" : "queryTestClone"
+      } ]
+    },
+    "hooks" : [ {
+      "compType" : "urlParams",
+      "comp" : { },
+      "name" : "url"
+    }, {
+      "compType" : "dayJsLib",
+      "comp" : { },
+      "name" : "dayjs"
+    }, {
+      "compType" : "lodashJsLib",
+      "comp" : { },
+      "name" : "_"
+    }, {
+      "compType" : "utils",
+      "comp" : { },
+      "name" : "utils"
+    }, {
+      "compType" : "message",
+      "comp" : { },
+      "name" : "message"
+    }, {
+      "compType" : "toast",
+      "comp" : { },
+      "name" : "toast"
+    }, {
+      "compType" : "localStorage",
+      "comp" : { },
+      "name" : "localStorage"
+    }, {
+      "compType" : "currentUser",
+      "comp" : { },
+      "name" : "currentUser"
+    }, {
+      "compType" : "screenInfo",
+      "comp" : { },
+      "name" : "screenInfo"
+    }, {
+      "compType" : "theme",
+      "comp" : { },
+      "name" : "theme"
+    } ],
+    "settings" : {
+      "title" : "",
+      "description" : "",
+      "icon" : "/icon:solid/0",
+      "category" : "Business",
+      "showHeaderInPublic" : false,
+      "themeId" : "default",
+      "preventAppStylesOverwriting" : true,
+      "disableCollision" : false,
+      "lowcoderCompVersion" : "latest",
+      "maxWidth" : {
+        "dropdown" : "1920",
+        "input" : 0
+      },
+      "gridRowCount" : "Infinity",
+      "gridPaddingX" : "20",
+      "gridPaddingY" : "20"
+    },
+    "preload" : {
+      "libs" : [ "https://unpkg.com/jmespath/jmespath.js", "https://unpkg.com/i18next/dist/umd/i18next.min.js", "https://unpkg.com/jmespath/jmespath.js", "https://unpkg.com/i18next/dist/umd/i18next.min.js" ],
+      "script" : "window.greet = () => \"Hello Khoa\"\nwindow.greet = () => \"Hello Khoa\"",
+      "css" : ".top-header {\n  background-color: red;\n}\n.top-header {\n  background-color: red;\n}",
+      "globalCSS" : ".top-header{\n  font-size: 20px\n}\n.top-header{\n  font-size: 20px\n}"
+    }
+  },
+  "publicToAll" : false,
+  "publicToMarketplace" : false,
+  "agencyProfile" : false,
+  "editingUserId" : "6964ca6d0d4507562a04e3af",
+  "lastEditedAt" : "2026-01-20T07:45:43.091Z",
+  "createdAt" : "2026-01-20T07:09:17.984Z",
+  "changeType" : "NONE",
+  "updatedAt" : "2026-01-26T03:55:55.938940135Z",
+  "createdBy" : "6964ca6d0d4507562a04e3af",
+  "slug" : null,
+  "organizationId" : "696607b20d4507562a04e8e1",
+  "commitId" : null,
+  "lastCommitAt" : null,
+  "editingQueries" : [ {
+    "id" : "3pze0u14i638z1zl4lozw14s",
+    "gid" : null,
+    "name" : "queryTestClone",
+    "triggerType" : "manual",
+    "baseQuery" : {
+      "datasourceId" : "696d90420be7ec6566788511",
+      "compType" : "restApi",
+      "comp" : {
+        "bodyType" : "none",
+        "body" : "",
+        "httpMethod" : "GET",
+        "path" : "users",
+        "headers" : [ {
+          "key" : "",
+          "value" : ""
+        } ],
+        "params" : [ {
+          "key" : "",
+          "value" : ""
+        } ],
+        "auth" : "none",
+        "bodyFormData" : [ {
+          "key" : "",
+          "value" : "",
+          "type" : "text"
+        } ],
+        "isSecure" : false
+      },
+      "timeout" : ""
+    },
+    "timeoutStr" : "",
+    "usingLibraryQuery" : false,
+    "libraryRecordQueryId" : {
+      "libraryQueryId" : null,
+      "libraryQueryRecordId" : null,
+      "usingLiveRecord" : false,
+      "usingEditingRecord" : true
+    }
+  }, {
+    "id" : "8ume2re2ty5hs7yqktu6eg68",
+    "gid" : null,
+    "name" : "query1",
+    "triggerType" : "manual",
+    "baseQuery" : {
+      "datasourceId" : "6965a5190d4507562a04e3ec",
+      "compType" : "restApi",
+      "comp" : {
+        "bodyType" : "none",
+        "body" : "",
+        "httpMethod" : "GET",
+        "path" : "/products",
+        "headers" : [ {
+          "key" : "",
+          "value" : ""
+        } ],
+        "params" : [ {
+          "key" : "",
+          "value" : ""
+        } ],
+        "auth" : "none",
+        "bodyFormData" : [ {
+          "key" : "",
+          "value" : "",
+          "type" : "text"
+        } ],
+        "isSecure" : false
+      },
+      "timeout" : ""
+    },
+    "timeoutStr" : "",
+    "usingLibraryQuery" : false,
+    "libraryRecordQueryId" : {
+      "libraryQueryId" : null,
+      "libraryQueryRecordId" : null,
+      "usingLiveRecord" : false,
+      "usingEditingRecord" : true
+    }
+  } ],
+  "editingModules" : [ ],
+  "editingApplicationDSLOrNull" : {
+    "ui" : {
+      "compType" : "module",
+      "comp" : {
+        "events" : {
+          "enableEventTestMessage" : true
+        },
+        "container" : {
+          "layout" : {
+            "a044a4f9" : {
+              "i" : "a044a4f9",
+              "h" : 6,
+              "w" : 7,
+              "x" : 0,
+              "y" : 0,
+              "pos" : 0
+            }
+          },
+          "items" : {
+            "a044a4f9" : {
+              "compType" : "text",
+              "comp" : {
+                "text" : "### 👋 Hello, {{currentUser.name}}",
+                "autoHeight" : "auto",
+                "type" : "markdown",
+                "horizontalAlignment" : "left",
+                "contentScrollBar" : true,
+                "verticalAlignment" : "center",
+                "margin" : {
+                  "left" : "",
+                  "right" : "",
+                  "top" : "",
+                  "bottom" : ""
+                },
+                "padding" : {
+                  "left" : "",
+                  "right" : "",
+                  "top" : "",
+                  "bottom" : ""
+                },
+                "showDataLoadingIndicators" : false,
+                "preventStyleOverwriting" : false,
+                "appliedThemeId" : "",
+                "version" : "latest"
+              },
+              "name" : "text1"
+            }
+          }
+        },
+        "containerSize" : {
+          "height" : 57,
+          "width" : 24
+        },
+        "containerRowCount" : 0,
+        "showDataLoadingIndicators" : false,
+        "preventStyleOverwriting" : false,
+        "appliedThemeId" : "",
+        "version" : "latest"
+      }
+    },
+    "queries" : [ {
+      "compType" : "restApi",
+      "comp" : {
+        "bodyType" : "none",
+        "body" : "",
+        "httpMethod" : "GET",
+        "path" : "/products",
+        "headers" : [ {
+          "key" : "",
+          "value" : ""
+        } ],
+        "params" : [ {
+          "key" : "",
+          "value" : ""
+        } ],
+        "auth" : "none",
+        "bodyFormData" : [ {
+          "key" : "",
+          "value" : "",
+          "type" : "text"
+        } ],
+        "isSecure" : false
+      },
+      "id" : "8ume2re2ty5hs7yqktu6eg68",
+      "name" : "query1",
+      "order" : 1768270737424,
+      "datasourceId" : "6965a5190d4507562a04e3ec",
+      "triggerType" : "manual",
+      "onEvent" : [ ],
+      "notification" : {
+        "showSuccess" : true,
+        "showFail" : true,
+        "fail" : [ { } ]
+      },
+      "timeout" : "",
+      "confirmationModal" : { },
+      "variables" : [ ],
+      "periodic" : false,
+      "periodicTime" : "",
+      "cancelPrevious" : false,
+      "depQueryName" : "",
+      "delayTime" : "",
+      "isSecure" : false,
+      "externalToken" : ""
+    }, {
+      "compType" : "restApi",
+      "comp" : {
+        "bodyType" : "none",
+        "body" : "",
+        "httpMethod" : "GET",
+        "path" : "users",
+        "headers" : [ {
+          "key" : "",
+          "value" : ""
+        } ],
+        "params" : [ {
+          "key" : "",
+          "value" : ""
+        } ],
+        "auth" : "none",
+        "bodyFormData" : [ {
+          "key" : "",
+          "value" : "",
+          "type" : "text"
+        } ],
+        "isSecure" : false
+      },
+      "id" : "3pze0u14i638z1zl4lozw14s",
+      "name" : "queryTestClone",
+      "order" : 1768788447676,
+      "datasourceId" : "696d90420be7ec6566788511",
+      "triggerType" : "manual",
+      "onEvent" : [ ],
+      "notification" : {
+        "showSuccess" : true,
+        "showFail" : true,
+        "fail" : [ { } ]
+      },
+      "timeout" : "",
+      "confirmationModal" : { },
+      "variables" : [ ],
+      "periodic" : false,
+      "periodicTime" : "",
+      "cancelPrevious" : false,
+      "depQueryName" : "",
+      "delayTime" : "",
+      "isSecure" : false,
+      "externalToken" : ""
+    } ],
+    "refTree" : {
+      "value" : "",
+      "items" : [ {
+        "value" : "query1"
+      }, {
+        "value" : "queryTestClone"
+      } ]
+    },
+    "hooks" : [ {
+      "compType" : "urlParams",
+      "comp" : { },
+      "name" : "url"
+    }, {
+      "compType" : "dayJsLib",
+      "comp" : { },
+      "name" : "dayjs"
+    }, {
+      "compType" : "lodashJsLib",
+      "comp" : { },
+      "name" : "_"
+    }, {
+      "compType" : "utils",
+      "comp" : { },
+      "name" : "utils"
+    }, {
+      "compType" : "message",
+      "comp" : { },
+      "name" : "message"
+    }, {
+      "compType" : "toast",
+      "comp" : { },
+      "name" : "toast"
+    }, {
+      "compType" : "localStorage",
+      "comp" : { },
+      "name" : "localStorage"
+    }, {
+      "compType" : "currentUser",
+      "comp" : { },
+      "name" : "currentUser"
+    }, {
+      "compType" : "screenInfo",
+      "comp" : { },
+      "name" : "screenInfo"
+    }, {
+      "compType" : "theme",
+      "comp" : { },
+      "name" : "theme"
+    } ],
+    "settings" : {
+      "title" : "",
+      "description" : "",
+      "icon" : "/icon:solid/0",
+      "category" : "Business",
+      "showHeaderInPublic" : false,
+      "themeId" : "default",
+      "preventAppStylesOverwriting" : true,
+      "disableCollision" : false,
+      "lowcoderCompVersion" : "latest",
+      "maxWidth" : {
+        "dropdown" : "1920",
+        "input" : 0
+      },
+      "gridRowCount" : "Infinity",
+      "gridPaddingX" : "20",
+      "gridPaddingY" : "20"
+    },
+    "preload" : {
+      "libs" : [ "https://unpkg.com/jmespath/jmespath.js", "https://unpkg.com/i18next/dist/umd/i18next.min.js", "https://unpkg.com/jmespath/jmespath.js", "https://unpkg.com/i18next/dist/umd/i18next.min.js" ],
+      "script" : "window.greet = () => \"Hello Khoa\"\nwindow.greet = () => \"Hello Khoa\"",
+      "css" : ".top-header {\n  background-color: red;\n}\n.top-header {\n  background-color: red;\n}",
+      "globalCSS" : ".top-header{\n  font-size: 20px\n}\n.top-header{\n  font-size: 20px\n}"
+    }
+  }
+}

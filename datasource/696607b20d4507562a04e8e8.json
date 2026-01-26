@@ -1,0 +1,30 @@
+{
+  "id" : "696607b20d4507562a04e8e8",
+  "updatedAt" : "2026-01-13T08:52:02.258Z",
+  "createdBy" : "6964ca6d0d4507562a04e3af",
+  "gid" : "019bb68e-1051-7e2e-9428-e7ab848febf0",
+  "name" : "EmbeddedDatabase_696607b20d4507562a04e8e1",
+  "type" : "postgres",
+  "organizationId" : "696607b20d4507562a04e8e1",
+  "creationSource" : 0,
+  "datasourceStatus" : "NORMAL",
+  "detailConfig" : {
+    "database" : "acp",
+    "username" : "org_696607b20d4507562a04e8e1_user",
+    "password" : "d3edacba0347293201c70402550dbc479f04d60ff5126d140fad8dc3cfd967fc2e7529ab160ff3513e605432c268ebc4215a41f31664f306aab3710e348b1519",
+    "host" : "10.168.6.147",
+    "port" : 5436,
+    "usingSsl" : false,
+    "serverTimezone" : "UTC",
+    "enableTurnOffPreparedStatement" : false,
+    "extParams" : {
+      "currentSchema" : "org_696607b20d4507562a04e8e1"
+    },
+    "readonly" : false
+  },
+  "commitId" : null,
+  "changeType" : "NONE",
+  "lastCommitAt" : null,
+  "n8nCredentialId" : null,
+  "systemSupport" : "ALL"
+}
