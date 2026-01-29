@@ -976,30 +976,30 @@
   "agencyProfile" : false,
   "editingUserId" : "6964ca6d0d4507562a04e3af",
   "lastEditedAt" : "2026-01-20T07:15:32.770Z",
-  "createdAt" : "2026-01-14T06:54:24.869Z",
+  "createdAt" : null,
   "changeType" : "NONE",
-  "updatedAt" : "2026-01-26T03:55:56.029985752Z",
+  "updatedAt" : "2026-01-29T07:05:56.881893304Z",
   "createdBy" : "6964ca6d0d4507562a04e3af",
   "slug" : null,
   "organizationId" : "696607b20d4507562a04e8e1",
   "commitId" : null,
   "lastCommitAt" : null,
   "editingQueries" : [ {
-    "id" : "ommgnajdwe0jkymm2jd5nakt",
+    "id" : "8ume2re2ty5hs7yqktu6eg68",
     "gid" : null,
-    "name" : "query2",
+    "name" : "query1",
     "triggerType" : "automatic",
     "baseQuery" : {
-      "datasourceId" : "#QUICK_REST_API",
+      "datasourceId" : "6965a5190d4507562a04e3ec",
       "compType" : "restApi",
       "comp" : {
         "bodyType" : "none",
         "body" : "",
         "httpMethod" : "GET",
-        "path" : "http://10.1.125.141:8888/svl-account/webhook/api/svl/user/info",
+        "path" : "/products",
         "headers" : [ {
-          "key" : "Authorization",
-          "value" : "Bearer {{window.localStorage.getItem(\"access_token\")}}"
+          "key" : "",
+          "value" : ""
         } ],
         "params" : [ {
           "key" : "",
@@ -1024,21 +1024,21 @@
       "usingEditingRecord" : true
     }
   }, {
-    "id" : "8ume2re2ty5hs7yqktu6eg68",
+    "id" : "ommgnajdwe0jkymm2jd5nakt",
     "gid" : null,
-    "name" : "query1",
+    "name" : "query2",
     "triggerType" : "automatic",
     "baseQuery" : {
-      "datasourceId" : "6965a5190d4507562a04e3ec",
+      "datasourceId" : "#QUICK_REST_API",
       "compType" : "restApi",
       "comp" : {
         "bodyType" : "none",
         "body" : "",
         "httpMethod" : "GET",
-        "path" : "/products",
+        "path" : "http://10.1.125.141:8888/svl-account/webhook/api/svl/user/info",
         "headers" : [ {
-          "key" : "",
-          "value" : ""
+          "key" : "Authorization",
+          "value" : "Bearer {{window.localStorage.getItem(\"access_token\")}}"
         } ],
         "params" : [ {
           "key" : "",

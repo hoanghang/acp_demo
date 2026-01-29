@@ -3296,27 +3296,27 @@
   "agencyProfile" : false,
   "editingUserId" : "",
   "lastEditedAt" : "2026-01-23T07:45:18.638Z",
-  "createdAt" : "2026-01-23T07:45:18.650Z",
+  "createdAt" : null,
   "changeType" : "NONE",
-  "updatedAt" : "2026-01-26T03:55:55.961693022Z",
+  "updatedAt" : "2026-01-29T07:05:56.850833076Z",
   "createdBy" : "6964ca6d0d4507562a04e3af",
   "slug" : null,
   "organizationId" : "696607b20d4507562a04e8e1",
   "commitId" : null,
   "lastCommitAt" : null,
   "editingQueries" : [ {
-    "id" : "3pze0u14i638z1zl4lozw14s",
+    "id" : "8ume2re2ty5hs7yqktu6eg68",
     "gid" : null,
-    "name" : "queryTestClone",
+    "name" : "query1",
     "triggerType" : "manual",
     "baseQuery" : {
-      "datasourceId" : "696d90420be7ec6566788511",
+      "datasourceId" : "6965a5190d4507562a04e3ec",
       "compType" : "restApi",
       "comp" : {
         "bodyType" : "none",
         "body" : "",
         "httpMethod" : "GET",
-        "path" : "users",
+        "path" : "/products",
         "headers" : [ {
           "key" : "",
           "value" : ""
@@ -3344,18 +3344,18 @@
       "usingEditingRecord" : true
     }
   }, {
-    "id" : "8ume2re2ty5hs7yqktu6eg68",
+    "id" : "3pze0u14i638z1zl4lozw14s",
     "gid" : null,
-    "name" : "query1",
+    "name" : "queryTestClone",
     "triggerType" : "manual",
     "baseQuery" : {
-      "datasourceId" : "6965a5190d4507562a04e3ec",
+      "datasourceId" : "696d90420be7ec6566788511",
       "compType" : "restApi",
       "comp" : {
         "bodyType" : "none",
         "body" : "",
         "httpMethod" : "GET",
-        "path" : "/products",
+        "path" : "users",
         "headers" : [ {
           "key" : "",
           "value" : ""

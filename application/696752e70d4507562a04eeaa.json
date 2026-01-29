@@ -1763,9 +1763,9 @@
   "agencyProfile" : false,
   "editingUserId" : "6964ca6d0d4507562a04e3af",
   "lastEditedAt" : "2026-01-14T08:27:34.895Z",
-  "createdAt" : "2026-01-14T08:25:11.958Z",
+  "createdAt" : null,
   "changeType" : "NONE",
-  "updatedAt" : "2026-01-26T03:55:55.959089396Z",
+  "updatedAt" : "2026-01-29T07:05:56.841712890Z",
   "createdBy" : "6964ca6d0d4507562a04e3af",
   "slug" : null,
   "organizationId" : "696607b20d4507562a04e8e1",
@@ -1774,7 +1774,7 @@
   "editingQueries" : [ {
     "id" : "8ume2re2ty5hs7yqktu6eg68",
     "gid" : null,
-    "name" : "query1",
+    "name" : "restApi1",
     "triggerType" : "manual",
     "baseQuery" : {
       "datasourceId" : "6965a5190d4507562a04e3ec",
@@ -1813,7 +1813,7 @@
   }, {
     "id" : "8ume2re2ty5hs7yqktu6eg68",
     "gid" : null,
-    "name" : "restApi1",
+    "name" : "query1",
     "triggerType" : "manual",
     "baseQuery" : {
       "datasourceId" : "6965a5190d4507562a04e3ec",
